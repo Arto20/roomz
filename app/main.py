@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 
-from api import rooms
+from app.api import rooms
 
 app = FastAPI()
 

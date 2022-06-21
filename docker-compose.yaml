@@ -9,7 +9,7 @@ services:
     depends_on:
       - roomz_db
     volumes:
-      - ./app:/code/app
+      - .:/code
   roomz_db:
     image: postgres:latest
     container_name: roomz_postgres
